@@ -1,0 +1,16 @@
+PODS:
+  - YJActivityIndicatorView (1.0.0)
+
+DEPENDENCIES:
+  - YJActivityIndicatorView (from `../`)
+
+EXTERNAL SOURCES:
+  YJActivityIndicatorView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YJActivityIndicatorView: f51112fa59d69762bd6147cf0da573ff2a9a0215
+
+PODFILE CHECKSUM: e7ac831bbe93e80314b3ac597bc51474015be0e5
+
+COCOAPODS: 1.7.0.beta.3

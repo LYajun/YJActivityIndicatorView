@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		21FFA7821FE06036662C6995 /* Pods-YJActivityIndicatorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJActivityIndicatorView_Example.debug.xcconfig"; path = "Target Support Files/Pods-YJActivityIndicatorView_Example/Pods-YJActivityIndicatorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		470ADA7DF4569E616DFE3298 /* Pods_YJActivityIndicatorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJActivityIndicatorView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58F657AE89674103A097407F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		58F657AE89674103A097407F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YJActivityIndicatorView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJActivityIndicatorView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		883271E7D3BC3BC6905337F6 /* Pods-YJActivityIndicatorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJActivityIndicatorView_Example.release.xcconfig"; path = "Target Support Files/Pods-YJActivityIndicatorView_Example/Pods-YJActivityIndicatorView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		89CFDEDA193206D1B912BDA1 /* YJActivityIndicatorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YJActivityIndicatorView.podspec; path = ../YJActivityIndicatorView.podspec; sourceTree = "<group>"; };
+		89CFDEDA193206D1B912BDA1 /* YJActivityIndicatorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJActivityIndicatorView.podspec; path = ../YJActivityIndicatorView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A55BF7F0FF15306ED2915D6E /* Pods_YJActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJActivityIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B30681FF7F9294666CB8A032 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B30681FF7F9294666CB8A032 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C571D6533E95C411A099E1CD /* Pods-YJActivityIndicatorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJActivityIndicatorView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YJActivityIndicatorView_Tests/Pods-YJActivityIndicatorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA5F3FAB3E3AF77B09CAFD38 /* Pods-YJActivityIndicatorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJActivityIndicatorView_Tests.release.xcconfig"; path = "Target Support Files/Pods-YJActivityIndicatorView_Tests/Pods-YJActivityIndicatorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				C571D6533E95C411A099E1CD /* Pods-YJActivityIndicatorView_Tests.debug.xcconfig */,
 				DA5F3FAB3E3AF77B09CAFD38 /* Pods-YJActivityIndicatorView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
